@@ -16,7 +16,12 @@
         },
         "profiles": [
             {
-                "network": "Twitter",
+                "network": "X",
+                "username": "john",
+                "url": "https://twitter.com/john"
+            },
+            {
+                "network": "LinkedIn",
                 "username": "john",
                 "url": "https://twitter.com/john"
             }
@@ -25,6 +30,17 @@
     "work": [
         {
             "name": "Company",
+            "position": "President",
+            "url": "https://company.com",
+            "startDate": "2013-01-01",
+            "endDate": "2014-01-01",
+            "summary": "Description…",
+            "highlights": [
+                "Started the company"
+            ]
+        },
+        {
+            "name": "Company 2",
             "position": "President",
             "url": "https://company.com",
             "startDate": "2013-01-01",
@@ -89,12 +105,21 @@
     ],
     "skills": [
         {
-            "name": "Web Development",
+            "name": "Node",
             "level": "Master",
             "keywords": [
-                "HTML",
-                "CSS",
+                "Backend",
                 "JavaScript"
+            ]
+        },
+        {
+            "name": "TypeScript",
+            "level": "Master",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "Backend",
+                "JavaScript Superset"
             ]
         }
     ],
@@ -122,13 +147,27 @@
     "projects": [
         {
             "name": "Project",
+            "isActive": true,
             "startDate": "2019-01-01",
             "endDate": "2021-01-01",
             "description": "Description...",
             "highlights": [
                 "Won award at AIHacks 2016"
             ],
-            "url": "https://project.com/"
+            "url": "https://project.com/",
+            "github":""
+        },
+        {
+            "name": "Project 2",
+            "isActive": true,
+            "startDate": "2019-01-01",
+            "endDate": "2021-01-01",
+            "description": "Description...",
+            "highlights": [
+                "Won award at AIHacks 2016"
+            ],
+            "url": "https://project.com/",
+            "github": ""
         }
     ]
 }
