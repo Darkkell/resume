@@ -8,9 +8,12 @@ import Hero from '@/components/sections/Hero.astro';
 import KeyboardManager from '@/components/KeyboardManager.astro';
 import Projects from '@/components/sections/Projects.astro';
 import Skills from '@/components/sections/Skills.astro';
+
+import { basics }  from '@cv'
+const { name, label } = basics
 ---
 
-<Layout title="Min Portfolio">
+<Layout title={`Portfolio of ${name} - ${label}`}>
 	<main>
 		<Hero/>
 		<About/>
@@ -29,4 +32,10 @@ import Skills from '@/components/sections/Skills.astro';
 		margin: auto;
 		width: 100%;
 	}
+
+	@media (width <= 700px) {
+    main {
+      padding: 2rem;
+    }
+  }
 </style>
