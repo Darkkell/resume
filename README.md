@@ -1,4 +1,8 @@
-# Astro Starter Kit: Basics
+# Resume minimalist from JSON file
+
+![Resume preview](/src/images/524shots_so.webp "Resume Preview")
+
+## Astro Starter Kit: Basics
 
 ```sh
 npm create astro@latest -- --template basics

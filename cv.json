@@ -3,51 +3,86 @@
         "name": "Fermín Flores",
         "label": "Full Stack Developer",
         "image": "https://avatars.githubusercontent.com/u/47506026",
-        "email": "john@gmail.com",
-        "phone": "(912) 555-4321",
-        "url": "https://johndoe.com",
-        "summary": "A summary of John Doe…",
+        "email": "alejandro.flores.reyes@gmail.com",
+        "phone": "(777) 4797652",
+        "url": "https://dev1992.com",
+        "summary": "Desarrollador Full Stack con más de 2 años de experiencia en el diseño, implementación y mantenimiento de soluciones tecnológicas. Especializado en el desarrollo de Backend, configuración de servidores en la nube y gestión de proyectos. Amplio conocimiento en tecnologías como Node.js, Express, Sequelize, AWS, NativeScript, Angular y más.",
         "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
+            "address": "",
+            "postalCode": "",
+            "city": "Cuernavaca",
+            "countryCode": "MX",
+            "region": "Morelos"
         },
         "profiles": [
             {
-                "network": "X",
-                "username": "john",
-                "url": "https://twitter.com/john"
+                "network": "LinkedIn",
+                "username": "4lejandro",
+                "url": "https://www.linkedin.com/in/4lejandro/"
             },
             {
-                "network": "LinkedIn",
-                "username": "john",
-                "url": "https://twitter.com/john"
+                "network": "GitHub",
+                "username": "Darkkell",
+                "url": "https://www.github.com/Darkkell"
+            },
+            {
+                "network": "Microsoft Learn",
+                "username": "fermnalejandrofloresreyes-1061",
+                "url": "https://learn.microsoft.com/es-mx/users/fermnalejandrofloresreyes-1061/achievements?tab=tab-learning-paths"
             }
         ]
     },
     "work": [
         {
-            "name": "Company",
-            "position": "President",
+            "name": "Creafirme / IQ  Inver",
+            "position": "Desarrollador Full Stack",
             "url": "https://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description…",
+            "startDate": "2021-08-01",
+            "endDate": "2022-07-01",
+            "summary": "Ingeniero Full Stack con experiencia en desarrollo web y móvil, configuración de servidores y gestión de proyectos.",
             "highlights": [
-                "Started the company"
+                "Implementé un sistema de control de acceso basado en roles con JWT.",
+                "Configuré un entorno de alta disponibilidad en AWS Lightsail.",
+                "Desarrollé una aplicación móvil completa con NativeScript - Vue.",
+                "Brinde soporte técnico a más de 100 usuarios en 4 regiones.",
+                "Fui consultor en la adquisición de software para la empresa."
             ]
         },
         {
-            "name": "Company 2",
+            "name": "Desarrollador JAVA",
             "position": "President",
             "url": "https://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description…",
+            "startDate": "2020-07-01",
+            "endDate": "2020-11-01",
+            "summary": "Implementé un sistema de control de usuarios tilizando JSP's y Servlets en la Dirección General de Tecnologías de la Información y Comunicaciones del Gobierno de Morelos.",
             "highlights": [
-                "Started the company"
+                "Diseño e implementación de un sistema de control de usuarios completo y funcional.",
+                "Integración exitosa con diferentes tecnologías web."
+            ]
+        },
+        {
+            "name": "Universidad Autónoma del Estado de Morelos",
+            "position": "Desarrollador Móvil",
+            "url": "https://company.com",
+            "startDate": "2019-10-01",
+            "endDate": "2020-03-01",
+            "summary": "Lideré el desarrollo de una aplicación móvil innovadora para la asignación de créditos estudiantiles en la Universidad Autónoma del Estado de Morelos (UAEM) de la Facultad Ciencias del Deporte.",
+            "highlights": [
+                "Diseño y desarrollo de una aplicación móvil innovadora y fácil de usar.",
+                "Implementación de una arquitectura robusta y escalable."
+            ]
+        },
+        {
+            "name": "nstituto Nacional de Electricidad y Energías Limpias (INEEL)",
+            "position": "Desarrollador de Aplicaciones",
+            "url": "https://company.com",
+            "startDate": "2019-04-01",
+            "endDate": "2019-09-01",
+            "summary": "Lideré la implementación y diseño de una prueba de concepto para evaluar la viabilidad del framework NativeScript para cubrir los requerimientos de la interfaz móvil de la Unidad Central Maestra de la Comisión Federal de Electricidad (CFE).",
+            "highlights": [
+                "Validación de la viabilidad de NativeScript para el desarrollo de la interfaz móvil de la CFE.",
+                "Diseño e implementación de un prototipo funcional con alta fidelidad.",
+                "Presentación exitosa de los resultados a las partes interesadas."
             ]
         }
     ],
@@ -66,13 +101,25 @@
     ],
     "education": [
         {
-            "institution": "University",
-            "url": "https://institution.com/",
-            "area": "Software Development",
+            "institution": "UNIVERSIDAD AUTONOMA DE MORELOS (UAEM)",
+            "url": "https://www.uaem.mx/",
+            "area": "Licenciatura en informática",
             "studyType": "Bachelor",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "score": "4.0",
+            "startDate": "2020-01-01",
+            "endDate": "2016-01-01",
+            "score": "",
+            "courses": [
+                "DB1101 - Basic SQL"
+            ]
+        },
+        {
+            "institution": "UNIVERSIDAD POLITÉCNICA DEL ESTADO DE MORELOS (UPEMOR)",
+            "url": "https://www.upemor.edu.mx/",
+            "area": "Ingeniería en electrónica y telecomunicaciones",
+            "studyType": "Bachelor",
+            "startDate": "2013-01-01",
+            "endDate": "2015-01-01",
+            "score": "",
             "courses": [
                 "DB1101 - Basic SQL"
             ]
@@ -88,9 +135,15 @@
     ],
     "certificates": [
         {
-            "name": "Certificate",
-            "date": "2021-11-07",
-            "issuer": "Company",
+            "name": "Gestión de Proyectos de Google",
+            "date": "2023-12-07",
+            "issuer": "Coursera",
+            "url": "https://certificate.com"
+        },
+        {
+            "name": "Análisis de Datos de Google",
+            "date": "2023-03-07",
+            "issuer": "Coursera",
             "url": "https://certificate.com"
         }
     ],
