@@ -1,6 +1,6 @@
 # Resume minimalist from JSON file
 
-![Resume preview](/src/images/524shots_so.webp "Resume Preview")
+![Resume preview](/src/images/136shots_so.webp "Resume Preview")
 
 ## Astro Starter Kit: Basics
 

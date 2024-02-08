@@ -7,13 +7,15 @@ import Phone from '@/icons/Phone.astro'
 import Section from '@/components/Section.astro'
 import WorldMap from '@/icons/WorlMap.astro'
 import X from '@/icons/X.astro'
+import MicrosoftLearn from '@/icons/MicrosoftLearn.astro'
 
 const { name, label, image, location, profiles, phone, email } = basics
 const { city, region} = location
 const SOCIAL_ICONS: Record<string, any> = {
     GitHub,
     LinkedIn,
-    X
+    X,
+    MicrosoftLearn
 }
 const linkedInfo = profiles.find(({ network })=> network === "LinkedIn")
 const linkedInUrl = linkedInfo?.url
