@@ -1,6 +1,8 @@
 # Resume minimalist from JSON file
 
-![Resume preview](/src/images/136shots_so.webp "Resume Preview")
+![Resume Preview Light Theme](/src/images/545shots_so.webp "Resume Preview Light Theme")
+
+![Resume Preview Dark Theme](/src/images/984shots_so.webp "Resume Preview Dark Theme")
 
 ## Astro Starter Kit: Basics
 
@@ -57,7 +59,7 @@ All commands are run from the root of the project, from a terminal:
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
-## Project Docs
+## 📄 Project Docs
 
 ### Schema to Resume.json (cv.json)
 

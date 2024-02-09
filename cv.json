@@ -135,16 +135,18 @@
     ],
     "certificates": [
         {
-            "name": "Gestión de Proyectos de Google",
+            "name": "Programa Especializado - Gestión de Proyectos de Google",
             "date": "2023-12-07",
             "issuer": "Coursera",
-            "url": "https://certificate.com"
+            "idCredential": "74WK2CGL2J3V",
+            "url": "https://www.coursera.org/account/accomplishments/professional-cert/74WK2CGL2J3V"
         },
         {
-            "name": "Análisis de Datos de Google",
+            "name": "Programa Especializado - Análisis de Datos de Google",
             "date": "2023-03-07",
             "issuer": "Coursera",
-            "url": "https://certificate.com"
+            "idCredential": "R7N4U82DW94Q",
+            "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/R7N4U82DW94QV"
         }
     ],
     "publications": [
@@ -208,7 +210,7 @@
                 "Won award at AIHacks 2016"
             ],
             "url": "https://project.com/",
-            "github":""
+            "github":"https://project.com/"
         },
         {
             "name": "Project 2",
@@ -220,7 +222,7 @@
                 "Won award at AIHacks 2016"
             ],
             "url": "https://project.com/",
-            "github": ""
+            "github": "https://project.com/"
         }
     ]
 }

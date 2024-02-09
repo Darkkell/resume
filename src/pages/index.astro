@@ -2,12 +2,14 @@
 import Layout from '@/layouts/Layout.astro';
 
 import About from '@/components/sections/About.astro';
+import Certificates from '@/components/sections/Certificates.astro';
 import Education from '@/components/sections/Education.astro';
 import Experience from '@/components/sections/Experience.astro';
 import Hero from '@/components/sections/Hero.astro';
 import KeyboardManager from '@/components/KeyboardManager.astro';
 import Projects from '@/components/sections/Projects.astro';
 import Skills from '@/components/sections/Skills.astro';
+import Theme from '@/components/sections/Theme.astro';
 
 import { basics }  from '@cv'
 const { name, label } = basics
@@ -15,12 +17,14 @@ const { name, label } = basics
 
 <Layout title={`Portfolio of ${name} - ${label}`}>
 	<main>
+		<Theme/>
 		<Hero/>
 		<About/>
 		<Experience/>
 		<Education/>
 		<Projects/>
 		<Skills/>
+		<Certificates/>
 	</main>
 
 	<KeyboardManager/>
