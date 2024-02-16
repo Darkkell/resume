@@ -13,32 +13,34 @@ import Sun from "@/icons/Sun.astro";
 </div>
 
 <script>
-          const themeToggle = document.querySelector(
-            '.theme-switch input[type="checkbox"]'
-          );
+  const getThemePreferences = () =>{
+    return window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+  }
 
-          const currentTheme = localStorage.getItem("theme");
+  localStorage.getItem('theme') ?? localStorage.setItem('theme', getThemePreferences());
+  const themeToggle = document.querySelector(
+    '.theme-switch input[type="checkbox"]'
+  ) as HTMLInputElement;
 
-          if (currentTheme) {
-            document.documentElement.setAttribute("data-theme", currentTheme);
+  const currentTheme = localStorage.getItem("theme");
 
-            if (currentTheme === "dark") {
-              themeToggle.checked = true;
-            }
-          }
+  if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+    if(currentTheme === 'dark')
+    themeToggle.checked = currentTheme === 'dark';
+  }
 
-          function switchTheme(e: { target: { checked: any; }; }) {
-            if (e.target.checked) {
-              document.documentElement.setAttribute("data-theme", "dark");
-              localStorage.setItem("theme", "dark");
-            } else {
-              document.documentElement.setAttribute("data-theme", "light");
-              localStorage.setItem("theme", "light");
-            }
-          }
+  function switchTheme(event: Event) {
+    const isChecked = (event.target as HTMLInputElement).checked;
+    const newTheme = isChecked ? 'dark' : 'light';
 
-          themeToggle.addEventListener("change", switchTheme, false);
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+  }
 
+  themeToggle.addEventListener('change', switchTheme);
 </script>
 
 <style>

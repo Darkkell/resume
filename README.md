@@ -4,6 +4,12 @@
 
 ![Resume Preview Dark Theme](/src/images/984shots_so.webp "Resume Preview Dark Theme")
 
+## 📄 Project Docs
+
+### Schema to Resume.json (cv.json)
+
+- [link](https://jsonresume.org/schema/)
+
 ## Astro Starter Kit: Basics
 
 ```sh
@@ -58,9 +64,3 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## 📄 Project Docs
-
-### Schema to Resume.json (cv.json)
-
-- [link](https://jsonresume.org/schema/)
