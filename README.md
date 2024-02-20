@@ -12,6 +12,16 @@
 
 ## Deploy
 
+- astro.config.mjs !important
+
+```mjs
+// https://astro.build/config
+export default defineConfig({
+    site: 'https://www.dev1992.com',
+    base: '/'
+});
+```
+
 - to deploy on another dir example https:/site.com/resume
 
 ```sh
