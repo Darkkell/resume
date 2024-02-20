@@ -10,6 +10,14 @@
 
 - [link](https://jsonresume.org/schema/)
 
+## Deploy
+
+- to deploy on another dir example https:/site.com/resume
+
+```sh
+npm run astro build --outDir=/resume/
+```
+
 ## Astro Starter Kit: Basics
 
 ```sh
