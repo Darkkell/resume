@@ -1,5 +1,7 @@
 # Resume minimalist from JSON file
 
+- Feel free to check [my resume](https://dev1992.com/resume/)
+
 ![Resume Preview Light Theme](/src/images/545shots_so.webp "Resume Preview Light Theme")
 
 ![Resume Preview Dark Theme](/src/images/984shots_so.webp "Resume Preview Dark Theme")
