@@ -5,7 +5,7 @@
         "image": "https://avatars.githubusercontent.com/u/47506026",
         "email": "alejandro.flores.reyes@gmail.com",
         "phone": "(777) 4797652",
-        "url": "https://dev1992.com",
+        "url": "https://dev1992.com/potfolio",
         "summary": "Desarrollador Full Stack con más de 2 años de experiencia en el diseño, implementación y mantenimiento de soluciones tecnológicas. Especializado en el desarrollo de Backend, configuración de servidores en la nube y gestión de proyectos. Amplio conocimiento en tecnologías como Node.js, Express, Sequelize, AWS, NativeScript, Angular y más.",
         "location": {
             "address": "",
@@ -147,6 +147,13 @@
             "issuer": "Coursera",
             "idCredential": "R7N4U82DW94Q",
             "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/R7N4U82DW94QV"
+        },
+        {
+            "name": "Programa Especializado - Diseño de Experiencia del Usuario (UX) de Google",
+            "date": "ongoing",
+            "issuer": "Coursera",
+            "idCredential": "ongoing",
+            "url": ""
         }
     ],
     "publications": [
@@ -161,7 +168,7 @@
     "skills": [
         {
             "name": "Node",
-            "level": "Master",
+            "level": "Proficient",
             "keywords": [
                 "Backend",
                 "JavaScript"
@@ -169,7 +176,7 @@
         },
         {
             "name": "TypeScript",
-            "level": "Master",
+            "level": "Proficient",
             "keywords": [
                 "Desarrollo Web",
                 "Frontend",
@@ -181,7 +188,7 @@
     "languages": [
         {
             "language": "English",
-            "fluency": "Native speaker"
+            "fluency": "Intermediate"
         }
     ],
     "interests": [
