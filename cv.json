@@ -175,6 +175,23 @@
             ]
         },
         {
+            "name": "MySQL",
+            "level": "Proficient",
+            "keywords": [
+                "Backend",
+                "Database"
+            ]
+        },
+        {
+            "name": "Laravel",
+            "level": "Proficient",
+            "keywords": [
+                "Desarrollo Web",
+                "Backend",
+                "Frontend"
+            ]
+        },
+        {
             "name": "TypeScript",
             "level": "Proficient",
             "keywords": [
@@ -182,6 +199,72 @@
                 "Frontend",
                 "Backend",
                 "JavaScript Superset"
+            ]
+        },
+        {
+            "name": "NativeScript",
+            "level": "Proficient",
+            "keywords": [
+                "Movil",
+                "Frontend"
+            ]
+        },
+        {
+            "name": "Angular",
+            "level": "Proficient",
+            "keywords": [
+                "Frontend",
+                "TypeScript"
+            ]
+        },
+        {
+            "name": "Vue",
+            "level": "Proficient",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "Backend"
+            ]
+        },
+        {
+            "name": "JavaScript",
+            "level": "Proficient",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "Backend"
+            ]
+        },
+        {
+            "name": "HTML",
+            "level": "Proficient",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend"
+            ]
+        },
+        {
+            "name": "CSS",
+            "level": "Proficient",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend"
+            ]
+        },
+        {
+            "name": "Tailwind",
+            "level": "Proficient",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend"
+            ]
+        },
+        {
+            "name": "Git",
+            "level": "Proficient",
+            "keywords": [
+                "Desarrollo",
+                "Control de versiones"
             ]
         }
     ],

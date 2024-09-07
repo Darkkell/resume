@@ -1,45 +1,53 @@
 ---
 import Section from "@/components/Section.astro";
 
-import { skills } from "@cv"
-import CSS from "@/icons/Css.astro"
-import Git from "@/icons/Git.astro"
-import GitHub from "@/icons/GitHub.astro"
-import HTML from "@/icons/Html.astro"
-import JavaScript from "@/icons/JavaScript.astro"
-import MySQL from "@/icons/MySql.astro"
-import Next from "@/icons/Next.astro"
-import Node from "@/icons/Node.astro"
-import React from "@/icons/React.astro"
-import Tailwind from "@/icons/Tailwind.astro"
-import TypeScript from "@/icons/TypeScript.astro"
+import { skills } from "@cv";
+import Angular from "@/icons/Angular.astro";
+import CSS from "@/icons/Css.astro";
+import Git from "@/icons/Git.astro";
+import GitHub from "@/icons/GitHub.astro";
+import HTML from "@/icons/Html.astro";
+import JavaScript from "@/icons/JavaScript.astro";
+import Laravel from "@/icons/Laravel.astro";
+import MySQL from "@/icons/MySql.astro";
+import NativeScript from "@/icons/NativeScript.astro";
+import Next from "@/icons/Next.astro";
+import Node from "@/icons/Node.astro";
+import React from "@/icons/React.astro";
+import Tailwind from "@/icons/Tailwind.astro";
+import TypeScript from "@/icons/TypeScript.astro";
+import Vue from "@/icons/Vue.astro";
 
 const SKILLS_ICONS: Record<string, any> = {
-  HTML,
-  CSS,
-  JavaScript,
-  TypeScript,
-  React,
-  Node,
-  MySQL,
-  Git,
-  GitHub,
-  Next,
-  Tailwind,
-}
+    Angular,
+    HTML,
+    CSS,
+    JavaScript,
+    Laravel,
+    TypeScript,
+    React,
+    Node,
+    MySQL,
+    NativeScript,
+    Git,
+    GitHub,
+    Next,
+    Tailwind,
+    Vue
+};
 ---
 
 <Section title="Skills">
     <ul>
         {
-            skills.map(({name})=>{
-                const iconName = name === "Next.js" ? "Next" : name
-                const Icon = SKILLS_ICONS[iconName]
+            skills.map(({ name }) => {
+                const iconName = name === "Next.js" ? "Next" : name;
+                const Icon = SKILLS_ICONS[iconName];
                 return (
                     <li>
-                        {Icon && <Icon/>} <span>{ name }</span>
+                        {Icon && <Icon />} <span>{name}</span>
                     </li>
-                )
+                );
             })
         }
     </ul>
@@ -52,15 +60,15 @@ const SKILLS_ICONS: Record<string, any> = {
         flex-wrap: wrap;
     }
 
-  li {
-    align-items: center;
-    background: #eee;
-    border-radius: 6px;
-    color: black;
-    display: flex;
-    font-size: 0.8rem;
-    font-weight: 500;
-    gap: 4px;
-    padding: 0.2rem 0.6rem;
-  }
+    li {
+        align-items: center;
+        background: #eee;
+        border-radius: 6px;
+        color: black;
+        display: flex;
+        font-size: 0.8rem;
+        font-weight: 500;
+        gap: 4px;
+        padding: 0.2rem 0.6rem;
+    }
 </style>
